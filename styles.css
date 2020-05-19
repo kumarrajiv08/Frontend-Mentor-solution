@@ -1,0 +1,74 @@
+body
+{
+  background-color: hsl(240, 18%, 77%);
+
+}
+.content{
+width: 45%;
+padding-top: 200px;
+    padding-left: 250px;
+    padding-bottom: 100px;
+    font-family: 'Inter', sans-serif;
+    line-height: 2;
+    display: inline-block;
+    z-index: 2;
+     position: absolute;
+
+
+}
+.arrow{
+  margin-left: 500px;
+    margin-top: 40px;
+    z-index: 2;
+}
+.name
+{
+  font-weight: bold;
+}
+.designation{
+  font-weight: lighter;
+  color: #888888;
+}
+
+.pattern_bg{
+      position: absolute;
+  height: 400px;
+  width: 400px;
+top: 70px;
+      right: 140px;
+      left: 750px;
+      z-index: -1;
+
+
+
+}
+  .pattern_curve{
+  position: absolute;
+  left: 0px;
+      top: 347px;
+
+  }
+    .pattern_quotes{
+          position: absolute;
+          top:170px;
+          left: 250px;
+
+    }
+      .profilepic{
+        position: absolute;
+        left: 800px;
+        top: 120px;
+      height: 300px;
+      width: 300px;
+      z-index: 1;
+      filter: drop-shadow(0 0 0.75rem crimson);
+
+      }
+
+.rectangle{
+  position: relative;
+margin: 50px 50px;
+height: 500px;
+width: 1200px;
+background-color: white;
+}
